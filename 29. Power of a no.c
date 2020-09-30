@@ -10,7 +10,7 @@ int main() {
     scanf("%lf", &exp);
 
     // calculates the power
-    result = power(base, exp);
+    result = pow(base, exp);
 
     printf("%.1lf^%.1lf = %.2lf", base, exp, result);
     return 0;
