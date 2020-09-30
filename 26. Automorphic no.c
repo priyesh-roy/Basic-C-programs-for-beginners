@@ -8,7 +8,7 @@ int checkAutomorphic(int num)
     
     while (num > 0)
     {
-        if (num / 10 != square % 10)
+        if (num % 10 != square % 10)
             return 0;
         
         // Reduce N and square
