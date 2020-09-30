@@ -12,7 +12,7 @@ int main()
 	temp = num;
 	while(temp)
 	{
-		sum = temp % 10;
+		sum += temp % 10;
 		temp = temp / 10;
 	}
 	int res = num % sum;
